@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai jamjuree";
+}
+ main{
+    text-align: center; 
+}
+.logo{
+    text-align: center;
+background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding:30px 6px;
+}
+
+ p{
+    color:hsl(201, 11%, 66%) ;
+    font-size: 22px;
+ }
+
+ h1 {
+ font-size: 44px; 
+ font-weight: 600;
+ color: hsl(210, 10%, 33%);  
+ }
+ 
+ h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);;
+ }
+
+h3{
+    font-weight: 600;
+font-size: 24px;
+color: hsl(210, 10%, 33%);
+ }
+
+ .first-section{
+margin: 10px auto;
+padding: 3px;
+  }
+ 
+
+ button{
+    margin:10px auto;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    border-radius: 10rem;
+    border: none;
+    font-size: 22px;
+ }
+ .green-btn{
+    background-color:hsl(171, 66%, 44%);
+    color: white;
+    box-shadow: 0px 2.5px 3px hsl(171, 66%, 44%);
+ }
+ .blue-btn{
+background-color:hsl(233, 100%, 69%) ;
+color: white;
+box-shadow:0px 2.5px 3px hsl(233, 100%, 69%) ;
+ }
+
+ .second-section{
+    margin: 10px;
+ }
+
+ .second-section p {
+    padding:10px 35px;
+ }
+
+ .third-section{
+margin: 10px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+.text{
+flex-basis:30%;
+ padding: 2.5rem;
+ }
+
+ .text h3{
+margin: 10px;
+ }
+
+ .text p{
+    line-height: 1.5;
+ }
+
+
+.box{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px auto;
+}
+
+.boxes{
+   text-align: center;
+flex-basis: 30%;
+padding: 2%;  
+}
+
+.boxes h3{
+ padding: 0.2rem;
+}
+ .logos {
+    padding: 15px;
+    display: flex;
+ }
+
+.logoss img{
+   margin: 20px;
+}
+footer{
+background-color: hsl(0, 0%, 96%);
+   padding: 3rem 5rem;
+}
+
+.footer_logo img {
+    width: 12rem;
+    padding: 0 4rem;
+}
+
+.lastsection{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding-bottom: 1.5rem;
+ }
+
+ .links{
+    display: grid;
+    grid-template-columns: repeat(3 ,150px);
+    grid-template-rows: (40px);
+    font-size: 20px;
+}
+.links a{
+    text-decoration: none;
+    color:hsl(201, 11%, 66%) ;
+} 
+
+.icons img{
+margin-left: 12px;
+
+}
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ /* media querie starts here */
+
+ @media (max-width:768px){
+   main {
+      text-align: center;
+      padding: 0.1rem 4.5rem;
+   }
+    .logo{
+    text-align: center;
+    background: url(images/bg-header-mobile.png);
+    }
+    h1{
+        font-size: 2.3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+    font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+    button{
+        padding: 0.3rem 4rem;
+    }
+    
+   .third-section {
+    display: block;
+   } 
+   .third-section img {
+     width: 100%;
+    padding: 5px;
+   }
+   .text{
+    text-align: center;
+    padding: 3rem 3rem 0;
+   }
+  
+ .logoss{
+  display: block;
+ }
+
+.forth-section img{
+    width: 100%;
+    padding: 5px;
+ }
+ .box{
+    display: block;
+ }
+ .boxes{
+    text-align: center;
+    padding: 3rem 3rem 0;
+ }
+
+ 
+ .lastsection{
+   width: 100%;
+    display: block;
+ }
+
+ .links{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-rows: repeat(5 ,1fr);
+    padding-top: 2.5rem;
+    
+ }
+ .links a{
+    padding: 10px;}
+ }
+ 
+
+
+
